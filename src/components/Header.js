@@ -1,10 +1,13 @@
-import React from "react";
+import React from 'react';
+import { Container, Jumbotron } from 'react-bootstrap';
+
 const Header = () => {
   return (
-    <header>
-      <i className='fas fa-book fa-2x'></i>
-      <h1>Book Cards</h1>
-    </header>
+    <Container>
+      <Jumbotron>
+        <h1 className='d-flex justify-content-center'>Google Books API</h1>
+      </Jumbotron>
+    </Container>
   );
 };
 export default Header;
